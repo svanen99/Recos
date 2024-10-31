@@ -1,0 +1,5 @@
+blue: #004aad
+red: #ff3130
+background-white: #F4F1DE
+background-another-white: FAF7F0
+text: #3E2723
