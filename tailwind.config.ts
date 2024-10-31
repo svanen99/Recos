@@ -41,6 +41,9 @@ const config: Config = {
           '50%': { opacity: '1' },
         },
       },
+      backgroundImage: {
+        'paper-texture': "url('/paper-texture.png')", // Ändra sökvägen vid behov
+      },
     },
   },
   plugins: [],

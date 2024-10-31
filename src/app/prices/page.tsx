@@ -4,13 +4,13 @@ const Prices = () => {
     return (
         <>
             <Header />
-            <div className="relative bg-[#F4F1DE] text-[#3E2723] py-12 px-6 md:px-16 lg:px-24 font-poppins overflow-hidden">
-                <img src="/images/waffle.png" alt="Waffle" className="absolute top-10 left-5 w-20 opacity-20" />
-                <img src="/images/fried-chicken.png" alt="Fried Chicken" className="absolute bottom-20 left-1/4 w-24 opacity-20" />
-                <img src="/images/waffleone.png" alt="Waffle" className="absolute bottom-10 right-1/4 w-20 opacity-20" />
-                <img src="/images/fried.png" alt="Fried" className="absolute top-60 right-10 w-20 opacity-20" />
-                <img src="/images/waffle.png" alt="Waffle" className="absolute top-32 left-2/3 w-16 opacity-20" />
-                <img src="/images/fried-chicken.png" alt="Fried Chicken" className="absolute top-40 left-10 w-16 opacity-20" />
+            <div className="relative bg-[#f4f0ee] text-[#3E2723] py-12 px-6 md:px-16 lg:px-24 font-poppins overflow-hidden">
+                <img src="/images/waffle.png" alt="Waffle" className="absolute top-30 left-5 w-20 opacity-40" />
+                <img src="/images/fried-chicken.png" alt="Fried Chicken" className="absolute bottom-60 left-2/4 w-24 opacity-40" />
+                <img src="/images/waffleone.png" alt="Waffle" className="absolute bottom-10 right-1/4 w-20 opacity-40" />
+                <img src="/images/fried.png" alt="Fried" className="absolute top-60 right-10 w-20 opacity-40" />
+                <img src="/images/waffle.png" alt="Waffle" className="absolute top-2 left-2/3 w-16 opacity-40" />
+                <img src="/images/fried-chicken.png" alt="Fried Chicken" className="absolute top-40 left-10 w-16 opacity-40" />
                 
                 <h1 className="text-5xl font-bold text-center mb-8">Prices</h1>
                 <div className="max-w-4xl mx-auto space-y-10">
