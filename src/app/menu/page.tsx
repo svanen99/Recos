@@ -7,29 +7,27 @@ import { FaTimes } from "react-icons/fa";
 
 const menu = () => {
     const menuItems = [
-            { src: "/images/american.png", alt: "Dish 1", title: "American Pancakes", price: "70kr", description: "Fluffy pancakes served with maple syrup and a side of fresh berries." },
-            { src: "/images/chic-waff.png", alt: "Dish 2", title: "Chicken & Waffle", price: "140kr", description: "Crispy fried chicken served on top of a fluffy waffle served with a side of maple syrup and bbq sauce." },
-            { src: "/images/swe-waff.png", alt: "Dish 3", title: "Swedish Waffle", price: "65kr", description: "Classic Swedish-style waffle topped with berries, powderd sugar and served with a dollop of whipped cream and maple syrup." },
-            { src: "/images/chich-sall.png", alt: "Dish 4", title: "Chicken Salad", price: "140kr", description: "Fresh salad topped with juicy fried chicken, crisp greens, tomatoes, and cucumbers, served with a side of vinaigrette." },
-            { src: "/images/tenders.png", alt: "Dish 5", title: "Chicken Tenders", price: "75kr", description: "Golden, crispy chicken tenders, normally served with bbq sauce or sauce of your choice for extra flavour." },
-            { src: "/images/scramble.png", alt: "Dish 6", title: "Eggs & Toast", price: "75kr", description: "Perfectly scrambled eggs paired with buttered toast and butter." },
-            { src: "/images/mac.png", alt: "Dish 7", title: "Mac & Cheese", price: "50kr", description: "Rich and creamy macaroni and cheese topped with a crunchy breadcrumb crust." },
-            { src: "/images/cauli.png", alt: "Dish 8", title: "Deep Fried Cauliflower", price: "70kr", description: "Crispy battered cauliflower with a hint of spice, served normally with ranch or sauce of your choice" },
-            { src: "/images/corn.png", alt: "Dish 9", title: "Alabama Cream Corn", price: "45kr", description: "Sweet corn cooked in a rich, creamy sauce with a touch of Southern flair." },
-            { src: "/images/bacon.png", alt: "Dish 10", title: "Bacon", price: "35kr", description: "Crispy, perfectly cooked bacon strips, ideal as a side or topping for any dish." },
-            { src: "/images/sirap.png", alt: "Dish 11", title: "Maple Syrup", price: "20kr", description: "Pure, sweet maple syrup to drizzle over pancakes, waffles, or any dish you desire." },
-            { src: "/images/bbq.png", alt: "Dish 12", title: "BBQ Sauce", price: "20kr", description: "Smoky, sweet and tangy BBQ sauce, perfect as a dip or topping for chicken and sides." },
-            { src: "/images/vin.png", alt: "Dish 13", title: "Vinaigrette", price: "20kr", description: "Classic vinaigrette dressing with a balanced tang, perfect for salads and sides." },
-            { src: "/images/butter.png", alt: "Dish 14", title: "Butter", price: "20kr", description: "Creamy, salted butter to add richness and flavor to any dish." },
-            { src: "/images/whipped.png", alt: "Dish 15", title: "Whipped Cream", price: "20kr", description: "Fluffy whipped cream, perfect as a side for our sweeter dishes" },
-
-        ];
-        
+        { src: "/images/american.png", alt: "Dish 1", title: "American Pancakes", price: "70kr", description: "Fluffy pancakes served with maple syrup and a side of fresh berries." },
+        { src: "/images/chic-waff.png", alt: "Dish 2", title: "Chicken & Waffle", price: "140kr", description: "Crispy fried chicken served on top of a fluffy waffle served with a side of maple syrup and bbq sauce." },
+        { src: "/images/swe-waff.png", alt: "Dish 3", title: "Swedish Waffle", price: "65kr", description: "Classic Swedish-style waffle topped with berries, powdered sugar and served with a dollop of whipped cream and maple syrup." },
+        { src: "/images/chich-sall.png", alt: "Dish 4", title: "Chicken Salad", price: "140kr", description: "Fresh salad topped with juicy fried chicken, crisp greens, tomatoes, and cucumbers, served with a side of vinaigrette." },
+        { src: "/images/tenders.png", alt: "Dish 5", title: "Chicken Tenders", price: "75kr", description: "Golden, crispy chicken tenders, normally served with bbq sauce or sauce of your choice for extra flavour." },
+        { src: "/images/scramble.png", alt: "Dish 6", title: "Eggs & Toast", price: "75kr", description: "Perfectly scrambled eggs paired with buttered toast and butter." },
+        { src: "/images/mac.png", alt: "Dish 7", title: "Mac & Cheese", price: "50kr", description: "Rich and creamy macaroni and cheese topped with a crunchy breadcrumb crust." },
+        { src: "/images/cauli.png", alt: "Dish 8", title: "Deep Fried Cauliflower", price: "70kr", description: "Crispy battered cauliflower with a hint of spice, served normally with ranch or sauce of your choice." },
+        { src: "/images/corn.png", alt: "Dish 9", title: "Alabama Cream Corn", price: "45kr", description: "Sweet corn cooked in a rich, creamy sauce with a touch of Southern flair." },
+        { src: "/images/bacon.png", alt: "Dish 10", title: "Bacon", price: "35kr", description: "Crispy, perfectly cooked bacon strips, ideal as a side or topping for any dish." },
+        { src: "/images/sirap.png", alt: "Dish 11", title: "Maple Syrup", price: "20kr", description: "Pure, sweet maple syrup to drizzle over pancakes, waffles, or any dish you desire." },
+        { src: "/images/bbq.png", alt: "Dish 12", title: "BBQ Sauce", price: "20kr", description: "Smoky, sweet and tangy BBQ sauce, perfect as a dip or topping for chicken and sides." },
+        { src: "/images/vin.png", alt: "Dish 13", title: "Vinaigrette", price: "20kr", description: "Classic vinaigrette dressing with a balanced tang, perfect for salads and sides." },
+        { src: "/images/butter.png", alt: "Dish 14", title: "Butter", price: "20kr", description: "Creamy, salted butter to add richness and flavor to any dish." },
+        { src: "/images/whipped.png", alt: "Dish 15", title: "Whipped Cream", price: "20kr", description: "Fluffy whipped cream, perfect as a side for our sweeter dishes." },
+    ];
 
     const [isOpen, setIsOpen] = useState(false);
-    const [selectedImage, setSelectedImage] = useState(null);
+    const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
-    const openModal = (src) => {
+    const openModal = (src: string) => {
         setSelectedImage(src);
         setIsOpen(true);
     };
@@ -68,7 +66,7 @@ const menu = () => {
                 </div>
             </div>
 
-            {isOpen && (
+            {isOpen && selectedImage && (
                 <div 
                     className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70 backdrop-blur-md transition-opacity duration-300"
                     onClick={closeModal}
