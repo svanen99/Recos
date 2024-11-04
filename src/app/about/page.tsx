@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Image from "next/image";
 
@@ -5,7 +6,7 @@ const About = () => {
     return (
         <>
             <Header />
-            <div className="bg-[#FEFEFC] text-[#3E2723] px-6 py-12 md:px-16 lg:px-24 font-serif m-6 rounded-lg shadow-lg border border-[#ff3130]">
+            <div className="bg-[#004aad] text-[#FEFEFC] px-6 py-12 md:px-16 lg:px-24 font-serif m-6 rounded-lg shadow-lg border-4 border-[#ff3130]">
                 <div className="max-w-4xl mx-auto space-y-6 text-lg leading-relaxed">
                     <div className="flex justify-center mb-8">
                         <Image 
@@ -19,7 +20,7 @@ const About = () => {
                     <h1 className="text-4xl font-bold text-center text-[#ff3130]">
                         Welcome to Reco's Chicken and Waffles!
                     </h1>
-                    <p className="text-center text-xl font-medium text-[#3E2723] mb-4">
+                    <p className="text-center text-xl font-medium text-[#FEFEFC3] mb-4">
                         Your new favorite American all-day brunch spot in the heart of Stockholm!
                     </p>
                     <p className="text-justify">
@@ -39,6 +40,7 @@ const About = () => {
                     </p>
                 </div>
             </div>
+            <Footer />
         </>
     );
 }

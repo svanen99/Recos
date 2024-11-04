@@ -1,15 +1,16 @@
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
 const Update = () => {
     return (
         <>
             <Header />
-            <div className="bg-[#FEFEFC] text-[#3E2723] px-6 py-12 md:px-16 lg:px-24 font-poppins m-6 rounded-lg shadow-lg border border-[#ff3130]">
+            <div className="bg-[#004aad] text-[#FEFEFC] px-6 py-12 md:px-16 lg:px-24 font-poppins m-6 rounded-lg shadow-lg border-4 border-[#ff3130]">
                 <div className="max-w-4xl mx-auto space-y-6 text-lg leading-relaxed">
-                    <h1 className="text-4xl font-bold text-center mb-4 text-[#004aad]">
+                    <h1 className="text-4xl font-bold text-center mb-4 text-[#ff3130]">
                         Update!
                     </h1>
-                    <p className="text-center text-xl font-semibold text-[#3E2723]">
+                    <p className="text-center text-xl font-semibold text-[#FEFEFC]">
                         Hej everyone! Here’s a quick update for our loyal supporters.
                     </p>
                     <p className="text-justify">
@@ -27,6 +28,7 @@ const Update = () => {
                     </p>
                 </div>
             </div>
+            <Footer />
         </>
     );
 }

@@ -20,7 +20,7 @@ const Header = () => {
                 <div className="text-right">
                     <h1 className="text-5xl font-serif font-bold text-[#ff3130]">Chicken & Waffles</h1>
                     <p className="text-lg font-sans italic text-[#004aad] flex justify-end items-center text-end">
-                        Yes, they do go together... 
+                        Yes, they go together... 
                         <Image src="/images/flag.png" width={24} height={24} alt="flag" className="ml-2" />
                     </p>
                     <Link href="https://www.google.com/maps/place/Bondegatan+13,+11623+Stockholm">

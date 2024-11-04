@@ -1,7 +1,10 @@
 import Link from "next/link";
+import Melodi from "../Melodi";
 
 const Opening = () => {
     return (
+        <>
+        
         <div className="max-w-full mx-auto p-10 m-10 flex justify-between bg-[#004aad]">
             <div className="flex flex-col w-1/2 p-4">
                 <header className="flex flex-col border-b border-[#ff3130] pb-3 mb-3">
@@ -37,6 +40,8 @@ const Opening = () => {
                 ></iframe>
             </div>
         </div>
+        <Melodi />
+        </>
     );
 }
 

@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 
 const Prices = () => {
@@ -67,6 +68,7 @@ const Prices = () => {
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     );
 };
