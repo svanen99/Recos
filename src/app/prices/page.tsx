@@ -4,18 +4,24 @@ const Prices = () => {
     return (
         <>
             <Header />
-            <div className="relative bg-[#f4f0ee] text-[#3E2723] py-12 px-6 md:px-16 lg:px-24 font-poppins overflow-hidden">
-                <img src="/images/waffle.png" alt="Waffle" className="absolute top-30 left-5 w-20 opacity-40" />
-                <img src="/images/fried-chicken.png" alt="Fried Chicken" className="absolute bottom-60 left-2/4 w-24 opacity-40" />
-                <img src="/images/waffleone.png" alt="Waffle" className="absolute bottom-10 right-1/4 w-20 opacity-40" />
-                <img src="/images/fried.png" alt="Fried" className="absolute top-60 right-10 w-20 opacity-40" />
-                <img src="/images/waffle.png" alt="Waffle" className="absolute top-2 left-2/3 w-16 opacity-40" />
-                <img src="/images/fried-chicken.png" alt="Fried Chicken" className="absolute top-40 left-10 w-16 opacity-40" />
-                
+            <div className="relative bg-[#004aad] text-[#FEFEFC] py-12 px-6 md:px-16 lg:px-24 font-poppins overflow-hidden">
+                <img src="/images/waff.png" alt="Waffle" className="absolute top-18 left-5 w-20 opacity-75" />
+                <img src="/images/waffleone.png" alt="Waffle" className="absolute top-80 right-1/4 w-20 opacity-75" />
+                <img src="/images/fried.png" alt="Fried" className="absolute top-20 right-10 w-20 opacity-75" />
+                <img src="/images/bace.png" alt="Waffle" className="absolute top-30 left-1/4 w-16 opacity-85" />
+                <img src="/images/fried-chicken.png" alt="Fried Chicken" className="absolute top-80 left-10 w-16 opacity-75" />
+                <img src="/images/waff.png" alt="Mac and Cheese" className="absolute bottom-40 left-2/4 w-16 opacity-75" />
+                <img src="/images/bace.png" alt="Waffle" className="absolute bottom-20 left-3/4 w-16 opacity-85" />
+                <img src="/images/macncheese.png" alt="Waffle" className="absolute bottom-60 right-10 w-20 opacity-75" />
+                <img src="/images/bace.png" alt="Waffle" className="absolute top-1/2 right-1/2 w-20 opacity-85" />
+                <img src="/images/fried.png" alt="Fried" className="absolute bottom-1/3 left-10 w-20 opacity-75" />
+
+
+
                 <h1 className="text-5xl font-bold text-center mb-8">Prices</h1>
                 <div className="max-w-4xl mx-auto space-y-10">
                     <div>
-                        <h2 className="text-3xl font-semibold border-b-2 border-[#3E2723] pb-2 mb-4">Foods</h2>
+                        <h2 className="text-3xl font-semibold border-b-2 border-[#ff3130] pb-2 mb-4">Foods</h2>
                         <ul className="list-disc list-inside space-y-2">
                             <li>Chicken & Belgian Waffles 140kr</li>
                             <li>Fried Chicken (original or spicy) 35kr/each</li>
@@ -36,7 +42,7 @@ const Prices = () => {
                         </ul>
                     </div>
                     <div>
-                        <h2 className="text-3xl font-semibold border-b-2 border-[#3E2723] pb-2 mb-4 animate-fade-in">Drinks</h2>
+                        <h2 className="text-3xl font-semibold border-b-2 border-[#ff3130] pb-2 mb-4 animate-fade-in">Drinks</h2>
                         <ul className="list-disc list-inside space-y-2">
                             <li>Cola, Fanta, Sprite, Ramlösa 25kr</li>
                             <li>Brewed Coffee, Espresso 35kr</li>
@@ -46,7 +52,7 @@ const Prices = () => {
                         </ul>
                     </div>
                     <div>
-                        <h2 className="text-3xl font-semibold border-b-2 border-[#3E2723] pb-2 mb-4">Extra Toppings & Sauces - All 20kr</h2>
+                        <h2 className="text-3xl font-semibold border-b-2 border-[#ff3130] pb-2 mb-4">Extra Toppings & Sauces - All 20kr</h2>
                         <ul className="list-disc list-inside space-y-2">
                             <li>Maple Syrup</li>
                             <li>Jam / Sylt</li>
